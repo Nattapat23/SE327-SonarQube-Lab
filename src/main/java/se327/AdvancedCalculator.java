@@ -5,7 +5,7 @@ public class AdvancedCalculator extends Calculator {
         return Math.pow(base, exponent);
     }
 
-    public double sqrt(int a)throws IllegalAccessException{
+    public double sqrt(int a) throws IllegalAccessException{
         if (a<0){
             throw new IllegalAccessException("cannot calculate sqrt root of a negative number.");
         }
